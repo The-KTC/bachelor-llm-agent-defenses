@@ -1,0 +1,45 @@
+{
+  "study": {
+    "name": "kv_cache",
+    "dataset_slug": "<MODEL>_agentdojo-<VERSION>_<ATTACK>",
+    "pairs": 3,
+    "pair_order": "on_then_off"
+  },
+  "lmstudio": {
+    "base_url": "http://<LMSTUDIO_HOST>:<PORT>",
+    "model": "<MODEL_ID>",
+    "load_config_common": {
+      "context_length": 16384,
+      "eval_batch_size": 128,
+      "flash_attention": true,
+      "echo_load_config": true
+    },
+    "server_logs_dir": "/home/<USER>/.lmstudio/server-logs",
+    "ssh_user": "<SSH_USER>",
+    "ssh_host": "<LMSTUDIO_HOST>"
+  },
+  "agentdojo": {
+    "ssh_user": "<SSH_USER>",
+    "ssh_host": "<AGENTDOJO_HOST>",
+    "workdir": "/path/to/agentdojo",
+    "python": "/path/to/agentdojo/venv/bin/python3",
+    "attack": "tool_knowledge",
+    "benchmark_version": "v1.2.2",
+    "model_wrapper": "VLLM_PARSED",
+    "model_id": "<MODEL_ID>",
+    "remote_runs_root": "/path/to/agentdojo/runs",
+    "env": {
+      "OPENAI_BASE_URL": "http://<LMSTUDIO_HOST>:<PORT>/v1",
+      "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+    }
+  },
+  "orchestrator": {
+    "local_runs_root": "../_runs",
+    "ssh_options": [
+      "-o",
+      "BatchMode=yes",
+      "-o",
+      "StrictHostKeyChecking=accept-new"
+    ]
+  }
+}
