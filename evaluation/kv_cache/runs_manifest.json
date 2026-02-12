@@ -1,0 +1,368 @@
+{
+  "dataset_slug": "gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge",
+  "generated_at": "09-02-2026_13-27-50",
+  "release_asset": null,
+  "release_sha256": null,
+  "runs": [
+    {
+      "run_id": "pair01_kv_on_09-02-2026_03-01-03",
+      "pair_index": 1,
+      "kv_cache": "on",
+      "started_at": "2026-02-09T03:01:03",
+      "ended_at": "2026-02-09T06:35:14",
+      "duration_sec": 12850,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair01_kv_on_09-02-2026_03-01-03"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": true,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "5938068f709d9cd133731f2e86099b323205d95d4d6240f6e340f5e3f8ecd0a2",
+        "lmstudio_logs_tar_gz_sha256": "c15a0d82bdf1d42a96dd54ab8eb0764465c8b39356bf48089f387c9cb1e63673"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 42.57,
+          "security_pct": 28.03,
+          "passed_injection_as_user_tasks": "24/35",
+          "asr_targeted_est_pct": 71.97
+        }
+      }
+    },
+    {
+      "run_id": "pair01_kv_off_09-02-2026_06-35-14",
+      "pair_index": 1,
+      "kv_cache": "off",
+      "started_at": "2026-02-09T06:35:14",
+      "ended_at": "2026-02-09T13:27:50",
+      "duration_sec": 24755,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair01_kv_off_09-02-2026_06-35-14"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": false,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "901db27da63fc1f3dd6492b20ebcd657324f2447bd4752d2f3fe800e0e96ebae",
+        "lmstudio_logs_tar_gz_sha256": "ebfb48fe884f5a979ec9fd8359b5777d0a484c56d5e29a9f0df1646468486c5c"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 42.57,
+          "security_pct": 27.29,
+          "passed_injection_as_user_tasks": "26/35",
+          "asr_targeted_est_pct": 72.71000000000001
+        }
+      }
+    },
+    {
+      "run_id": "pair02_kv_on_10-02-2026_01-38-03",
+      "pair_index": 2,
+      "kv_cache": "on",
+      "started_at": "2026-02-10T01:38:03",
+      "ended_at": "2026-02-10T05:04:28",
+      "duration_sec": 12385,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair02_kv_on_10-02-2026_01-38-03"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": true,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "569e129621e25ebc5f6eda5c1c9dfca11c3f0779d2b9885cc415d7a4280a50f2",
+        "lmstudio_logs_tar_gz_sha256": "84d1c81a0afa1c630a3189e91e4ed0174c39cef37b2bac4dfc64fd57030c2d18"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 43.2,
+          "security_pct": 27.5,
+          "passed_injection_as_user_tasks": "23/35",
+          "asr_targeted_est_pct": 72.5
+        }
+      }
+    },
+    {
+      "run_id": "pair02_kv_off_10-02-2026_05-04-28",
+      "pair_index": 2,
+      "kv_cache": "off",
+      "started_at": "2026-02-10T05:04:28",
+      "ended_at": "2026-02-10T12:03:45",
+      "duration_sec": 25156,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair02_kv_off_10-02-2026_05-04-28"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": false,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "813b6909fd2bc93813fcea4423f2fd666b8024babbdb8edf9d424c5e69c8efca",
+        "lmstudio_logs_tar_gz_sha256": "f423977b410b9b0d808cf5d5f27e596d1c4d7c9bd939855804f113cd741d733e"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 42.99,
+          "security_pct": 28.77,
+          "passed_injection_as_user_tasks": "25/35",
+          "asr_targeted_est_pct": 71.23
+        }
+      }
+    },
+    {
+      "run_id": "pair03_kv_on_10-02-2026_12-03-45",
+      "pair_index": 3,
+      "kv_cache": "on",
+      "started_at": "2026-02-10T12:03:45",
+      "ended_at": "2026-02-10T15:37:39",
+      "duration_sec": 12834,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair03_kv_on_10-02-2026_12-03-45"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": true,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "4ea9569aa74f505203ff6284398c10062f80fc9d53cb646aaa43bbe2d0b59649",
+        "lmstudio_logs_tar_gz_sha256": "d8e239d044c145d2b4888fee1a2edd6bdc6768080496502387b868e4de221035"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 44.68,
+          "security_pct": 26.66,
+          "passed_injection_as_user_tasks": "25/35",
+          "asr_targeted_est_pct": 73.34
+        }
+      }
+    },
+    {
+      "run_id": "pair03_kv_off_10-02-2026_15-37-39",
+      "pair_index": 3,
+      "kv_cache": "off",
+      "started_at": "2026-02-10T15:37:39",
+      "ended_at": "2026-02-10T22:52:09",
+      "duration_sec": 26069,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair03_kv_off_10-02-2026_15-37-39"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": false,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "45c22287a16050f3279635284b7987e5b27ce771ecdf1302e750438d789379bc",
+        "lmstudio_logs_tar_gz_sha256": "ad3a78a517090dbb75b3feb2ce68d5e0434ea580a732db90eed9f09812220c13"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 44.57,
+          "security_pct": 26.98,
+          "passed_injection_as_user_tasks": "23/35",
+          "asr_targeted_est_pct": 73.02
+        }
+      }
+    },
+    {
+      "run_id": "pair04_kv_on_11-02-2026_07-00-45",
+      "pair_index": 4,
+      "kv_cache": "on",
+      "started_at": "2026-02-11T07:00:45",
+      "ended_at": "2026-02-11T10:29:39",
+      "duration_sec": 12533,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair04_kv_on_11-02-2026_07-00-45"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": true,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "0dc2883623bb10bd01b1eb44a4ca05340bd509a7331e3cb87d5e6219bb958fd0",
+        "lmstudio_logs_tar_gz_sha256": "2e8fa0e23abb20284e784e4fb64cd9d38012ac3d1eab94a81ea1428265c4bd2e"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 43.62,
+          "security_pct": 27.71,
+          "passed_injection_as_user_tasks": "28/35",
+          "asr_targeted_est_pct": 72.28999999999999
+        }
+      }
+    },
+    {
+      "run_id": "pair04_kv_off_11-02-2026_10-29-39",
+      "pair_index": 4,
+      "kv_cache": "off",
+      "started_at": "2026-02-11T10:29:39",
+      "ended_at": "2026-02-11T17:27:20",
+      "duration_sec": 25060,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair04_kv_off_11-02-2026_10-29-39"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": false,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "1d48b18dda34b7b3d7cf5a26343444bf41266270c9f9c9a7b7a230e57366db52",
+        "lmstudio_logs_tar_gz_sha256": "7cdf13b002cb0f33ab93fcc5f59f37736ac34a05297a0b47ba1e4d6d730db7aa"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 42.78,
+          "security_pct": 27.61,
+          "passed_injection_as_user_tasks": "26/35",
+          "asr_targeted_est_pct": 72.39
+        }
+      }
+    },
+    {
+      "run_id": "pair05_kv_on_11-02-2026_17-56-27",
+      "pair_index": 5,
+      "kv_cache": "on",
+      "started_at": "2026-02-11T17:56:27",
+      "ended_at": "2026-02-11T21:27:29",
+      "duration_sec": 12661,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair05_kv_on_11-02-2026_17-56-27"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": true,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "66f4dc62c019e3aad4ba6e6f053edd1e6286911c19b3066c02d80d581b18a22b",
+        "lmstudio_logs_tar_gz_sha256": "8aa2b2156279619626d204ec942b781f3dca8c410573d81a3966e856fb9e399f"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 44.15,
+          "security_pct": 28.66,
+          "passed_injection_as_user_tasks": "25/35",
+          "asr_targeted_est_pct": 71.34
+        }
+      }
+    },
+    {
+      "run_id": "pair05_kv_off_11-02-2026_21-27-29",
+      "pair_index": 5,
+      "kv_cache": "off",
+      "started_at": "2026-02-11T21:27:29",
+      "ended_at": "2026-02-12T04:38:05",
+      "duration_sec": 25835,
+      "remote": {
+        "agentdojo_host": "192.168.178.145",
+        "agentdojo_logdir": "/root/bachelorarbeit-agentdojo/runs/gpt-oss-20b_agentdojo-v1.2.2_tool_knowledge/pair05_kv_off_11-02-2026_21-27-29"
+      },
+      "lmstudio": {
+        "host": "192.168.178.24",
+        "base_url": "http://192.168.178.24:1234",
+        "model": "openai/gpt-oss-20b",
+        "offload_kv_cache_to_gpu": false,
+        "eval_batch_size": 128,
+        "context_length": 16384
+      },
+      "artifacts": {
+        "agentdojo_terminal_log": "agentdojo/terminal.log",
+        "lmstudio_logs_tar_gz": "lmstudio_logs.tar.gz"
+      },
+      "checksums": {
+        "agentdojo_terminal_log_sha256": "67ab3f03447c5a94775ed00ef66914d9302e6e42390daf7da8a7c5ed469d76df",
+        "lmstudio_logs_tar_gz_sha256": "01c226f69b916dbf98ea4df137d680895b9546202924510d6d226fbb522946ff"
+      },
+      "metrics": {
+        "combined": {
+          "utility_pct": 42.57,
+          "security_pct": 27.4,
+          "passed_injection_as_user_tasks": "25/35",
+          "asr_targeted_est_pct": 72.6
+        }
+      }
+    }
+  ]
+}
