@@ -7,12 +7,12 @@ Der Fokus liegt auf einer sauberen, nachvollziehbaren Benchmarkstruktur: Jede St
 
 ## Daten und Reproduzierbarkeit
 
-Aufgrund der Größe sind vollständige Rohlogs (AgentDojo-run-Artefakte, LM Studio- und vLLM-Logs) nicht im Git-Repository versioniert.
+Aufgrund der Größe sind vollständige Rohlogs (AgentDojo-run-Artefakte, LM Studio-Logs) nicht im Git-Repository versioniert.
 Die Rohdaten werden stattdessen über GitHub Releases (Assets) als Archiv veröffentlicht und von der jeweiligen Studie aus referenziert.
 
 - Rohlogs: GitHub Release „<NAME/Version>“
 - Datensatz-Index + Checksums: siehe jeweilige Studie (`runs_manifest.json`)
-- Auswertung/Ergebnisübersichten: siehe jeweilige Studie (`results.csv`)
+- Auswertung/Ergebnisübersichten: siehe jeweige Studie (`results.csv`)
 
 
 ## Studien / Evaluation
@@ -21,14 +21,11 @@ Die Rohdaten werden stattdessen über GitHub Releases (Assets) als Archiv veröf
    Ziel: Einfluss des KV-Cache auf Laufzeit/Overhead vs. Auswirkungen auf ASR/Utility unter konstanten Bedingungen.  
    Pfad: `evaluation/kv_cache/` - [README](evaluation/kv_cache/README.md)
 
-2. **Inferenz-Stack-Matrix (LM Studio vs. vLLM und AMD RX 6800 vs. Nvidia RTX 4070 Ti Super)**  
-   Ziel: Inferenz-Backend/GPU-Vergleich auf Basis identischer AgentDojo-Runs (ASR/Utility) bei fixierten Parametern.
-   Pfad: `evaluation/engine_matrix/` (folgt) - [README](evaluation/engine_matrix/README.md)
-
-3. **Defense-Evaluation (Hauptteil)**  
+2. **Defense-Evaluation (Hauptteil)**  
    Ziel: Systematische Evaluation eigener Defensivmethodiken auf AgentDojo-Szenarien.  
    Pfad: `evaluation/defenses/` (folgt) - [README](evaluation/defenses/README.md)
 
+*(Hinweis: Eine geplante Inferenz-Stack-Matrix (LM Studio vs. vLLM) wurde verworfen, da das Setup für die geplante reproduzierbare Evaluation nicht stabil genug war.)*
 
 ## Lizenz / Hinweise
 
